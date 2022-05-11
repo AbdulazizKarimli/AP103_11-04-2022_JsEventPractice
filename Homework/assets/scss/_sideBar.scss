@@ -1,0 +1,18 @@
+.side-bar {
+  display: flex;
+  .content {
+    width: 20%;
+    display: none;
+  }
+  .fa-xmark {
+    display: none;
+  }
+  .fa-solid {
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+  }
+  .active {
+    display: block;
+  }
+}
